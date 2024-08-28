@@ -1,0 +1,81 @@
+
+/*------------------------------------*/
+
+.bg-image {
+    background-image: url("https://plus.unsplash.com/premium_photo-1673795751644-e42b58452dc0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: 100%;
+    height: 65rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: inset 1200px 1200px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+.main-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-title {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    letter-spacing: 3px; 
+}
+
+.main-sub {
+    color: white;
+    font-size: 1.25rem;
+}
+
+
+
+.info-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100%;
+}
+
+.info1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.info1 img {
+  height: 10rem;
+}
+
+.info1 p {
+  color: white;
+  padding: 1rem;
+}
+
+.info2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.info2 img {
+  height: 10rem;
+}
+
+.info2 p {
+  color: white;
+  padding: 1rem;
+}
