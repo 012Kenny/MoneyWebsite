@@ -40,19 +40,80 @@
               <h1 class = "main-title">Making Resumes</h1>
                 <div class = "info-container">
                     <div class = 'info1'>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>This page will help guide you making a resume</p>
                     </div>
                     <div class = 'info2'>
                         <img src = 'https://images.unsplash.com/photo-1602407294553-6ac9170b3ed0?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'></img>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>When making a resume as a teenager, highlight your transferable skills like communication, teamwork, and problem-solving. Include any volunteer work or community service to showcase your experience. Keep the format simple and easy to read, and tailor your resume to each specific job you apply for. Adding a brief personal statement about your goals and why you're a good fit can also make a strong impression.</p>
                     </div>
                     <div class = 'info1'>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>This is a resume maker below to help teenagers create a strong resume. Highlight your transferable skills like communication, teamwork, and problem-solving. Include any volunteer work or community service to showcase your experience. Keep the format simple and easy to read, and tailor your resume to each specific job you apply for. Adding a brief personal statement about your goals and why you're a good fit can also make a strong impression.</p>
                     </div>
                 </div>
           </div>
       </div>
   </main>
+
+<div class = 'resume-maker'>
+      <div class = 'container'>
+          <h1>Resume Maker</h1>
+          <form id = 'resume-form'>
+              <div class = 'input-group'>
+                  <label for ='name'>Name:</label>
+                  <input type = 'text' id = 'name' required>
+              </div>
+
+              <div class = 'input-group'>
+                  <label for = 'email'>Email:</label>
+                  <input type = 'email' id = 'email' required>
+              </div>
+
+                <div class = 'input-group'>
+                    <label for = 'phone'>Phone:</label>
+                    <input type = 'tel' id = 'phone' required>
+                </div>
+
+                <div class = 'input-group'>
+                    <label for = 'summary'>Summary:</label>
+                    <textarea id = 'summary' rows = '4' required></textarea>
+                </div>
+
+                <div class = 'input-group'>
+                    <label for = 'experience'>Experience:</label>
+                    <textarea id = 'experience' rows = '4' required></textarea>
+                </div>
+
+              <div class = 'input-group'>
+                  <label for = 'education'>Education:</label>
+                  <textarea id = 'education' rows = '4' required></textarea>
+              </div>
+
+              <div class = 'input-group'>
+                  <label for = 'skills'>Skills:</label>
+                  <textarea id = 'skills' rows = '4' required></textarea>
+              </div>
+
+              <button type = 'button' onclick = 'generateResume()'>Generate</button>
+          </form>
+
+
+          <div id = 'resume' class = 'resume'>
+              <h2 id = 'resume-name'></h2>
+              <p id = 'resume-email'></p>
+              <p id = 'resume-phone'></p>
+              <h3>Summary</h3>
+              <p id = 'resume-summary'></p>
+              <h3>Experience</h3>
+              <p id = 'resume-experience'></p>
+              <h3>Education</h3>
+              <p id = 'resume-education'></p>
+              <h3>Skills</h3>
+              <p id = 'resume-skills'></p>
+          </div>
+      </div>
+</div>
+
+  <script src = 'resume.js'></script>
 
     
 </body>

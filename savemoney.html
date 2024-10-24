@@ -6,7 +6,7 @@
 
 <!DOCTYPE html>
 <html>
-
+<!---------- ----- --------- --------- --------- ----------------->
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,6 +18,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
+    <!---------- ----- --------- --------- --------- ----------------->
+    <!-- Navigation -->
 <body>
   <header>
       <nav>
@@ -27,33 +29,67 @@
           <ul class = 'nav-links'>
             <li><a href="howtomakemoney.html">How to make money</a></li>
             <li><a href="savemoney.html">Saving Money</a></li>
-            <li><a href="#">Making Resumes</a></li>
+            <li><a href="makingresumes.html">Making Resumes</a></li>
           </ul>
         </div>
       </nav>
   </header>
+    <!---------- ----- --------- --------- --------- ----------------->
   
-
+<!-- main page -->
   <main>
       <div class = "bg-image">
           <div class = "main-container">
               <h1 class = "main-title">Saving Money</h1>
                 <div class = "info-container">
                     <div class = 'info1'>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Saving money in New Zealand is important for managing living costs and achieving financial goals, especially with the country's high cost of living. Start by creating a budget tailored to your income and expenses, considering essentials like housing, groceries, and transport. Take advantage of savings opportunities, such as loyalty programs at supermarkets like Countdown or New World, and compare prices online to find the best deals. Utilize KiwiSaver to contribute towards long-term savings, benefiting from employer contributions and government incentives. Avoid unnecessary spending by focusing on needs over wants and setting aside a portion of your income regularly. By being mindful of your spending and taking advantage of local savings options, you can build a solid financial foundation in New Zealand.</p>
                     </div>
                     <div class = 'info2'>
                         <img src = 'https://images.unsplash.com/photo-1619719474148-2943464d8441?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'></img>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Saving money is an essential skill that helps you achieve financial goals and build a secure future. Start by setting clear savings targets, whether for short-term needs or long-term plans. Track your spending to identify areas where you can cut back, like unnecessary purchases or impulse buys. Consider creating a budget to manage your income and expenses more effectively. Additionally, prioritize saving a portion of any money you earn or receive, no matter how small, to gradually build up your savings over time.</p>
                     </div>
                     <div class = 'info1'>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p> Begin by creating a budget to understand your income and expenses, allowing you to identify areas where you can cut back. Set specific savings goals, whether it's for an emergency fund, a big purchase, or future investments. Try to save a portion of any money you receive, even small amounts can add up over time. Avoid impulse spending by prioritizing your needs over wants, helping you to grow your savings steadily.</p>
                     </div>
                 </div>
           </div>
       </div>
   </main>
 
+    <!---------- ----- --------- --------- --------- ----------------->
+    <!-- budget calculator -->
+  <div class = 'budget-calculator'>
+    <div class = 'container'>
+      <h1>Budget Calculator</h1>
+      <div class = 'input-group'>
+          <label for = 'income'>Monthly Income:</label>
+          <input type = 'number' id = 'income' placeholder = "Enter your income">
+      </div>
+        <div class = 'input-group'>
+            <label for = 'household'>Household Expenses:</label>
+            <input type = 'number' id = 'household' placeholder = "Enter your household expenses">
+        </div>
+    
+      <div class = 'input-group'>
+          <label for = 'transport'>Transport Expenses:</label>
+          <input type = 'number' id = 'transport' placeholder = "Enter your transport expenses">
+      </div>
+    
+    
+    <div class = 'input-group'>
+        <label for = 'personal'>Personal/Family Expenses:</label>
+        <input type = 'number' id = 'personal' placeholder = "Enter your personal/family expenses">
+        </div>
+    <button onclick = "calculateBudget()">Calculate</button>
+    <div class = 'output-group'>
+        <h2>Remaining Balance: <span id = 'balance'>0</span></h2>
+        <p id = 'message'></p>
+    </div>
+    </div>
+</div>
+    <!---------- ----- --------- --------- --------- ----------------->
+    <script src = 'script.js'></script>
     
 </body>
 

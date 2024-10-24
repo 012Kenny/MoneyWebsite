@@ -43,6 +43,7 @@
     padding: 0.25rem;
     text-align: center;
     color: white;
+    transition: 0.3s ease;
 }
 
 .nav-links li a {
@@ -50,6 +51,12 @@
     color: var(--main-text-color);
     font-size: 1.25rem;
 }
+
+.nav-links li:hover {
+    font-size: 1.3rem;
+    background-color: #808080;
+}
+
 
 /*---------END OF NAVIGATION----------*/
 /*------------------------------------*/
